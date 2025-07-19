@@ -23,6 +23,13 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
