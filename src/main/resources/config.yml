@@ -1,0 +1,12 @@
+reward-command: "give @a diamond 1"
+record-online: 0
+persist-thresholds: true
+thresholds:
+  "10":
+    - "say Поздравляем! Онлайн достиг 10 игроков!"
+    - "give @a diamond 1"
+  "20":
+    - "say Ура! Онлайн 20!"
+    - "give @a emerald 2"
+    - "title @a title {\"text\":\"Награда!\",\"color\":\"green\"}"
+hourly-announcement: "\ud83d\udce2 Онлайн: %online% | До %next_threshold% не хватает %to_go% игроков. Награда: %commands_preview%"
